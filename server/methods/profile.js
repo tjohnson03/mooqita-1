@@ -25,7 +25,6 @@ Meteor.methods({
 			comp_thinking_course_progress: profile.comp_thinking_course_progress,
 			python_course_progress: profile.python_course_progress,
 		}
-
 		return course_progress
 	},
 

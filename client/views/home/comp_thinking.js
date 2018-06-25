@@ -12,7 +12,9 @@ Template.comp_thinking_course.onRendered(() => {
 	Meteor.call('get_comp_thinking_challenges', (err, res) => {
 		Session.set('comp_thinking_challenges', res)
 	})
-
+	var myjson = {};
+	myjson = JSON.parse(Assets.getText("../../../private/db/defaultcollections/modules.json"));
+	console.log(myjson)
 })
 
 Template.comp_thinking_course.helpers({
@@ -139,3 +141,15 @@ Template.comp_thinking_course.events({
 	},
 
 })
+/*
+Meteor.startup(function() {
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			var myObj = JSON.parse(this.responseText);
+			document.getElementById("demo").innerHTML = myObj.name;
+		}
+	};
+	xmlhttp.open("GET", "json_demo.txt", true);
+	xmlhttp.send();
+});*/

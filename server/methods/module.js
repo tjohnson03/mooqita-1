@@ -15,7 +15,6 @@ Meteor.methods({
             published: true,
             subject: 'comp_thinking'
         }).fetch()
-
         return modules
     },
 

@@ -186,3 +186,14 @@ Meteor.startup () ->
 		console.log e
 		msg = String(e)
 		log_event msg, event_testing, event_err
+###
+Meteor.startup () ->
+	insertSample = (jsondata) ->
+		Fiber(->
+			Document.insertSample
+				name: "Sample doc"
+				data: jsondata
+		).run()
+	if Documents.find().count() is 0
+		insertJSOONfile("tests/test.json", insertSample)
+###
