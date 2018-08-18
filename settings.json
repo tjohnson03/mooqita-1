@@ -1,7 +1,7 @@
 {
 	"galaxy.meteor.com": {
 		"env": {
-			"MONGO_URL": "mongodb://kbellaryvijaya:ABCabc123$@ds219181.mlab.com:19181/appdb"
+			"MONGO_URL": "mongodb://kbellaryvijaya:ABCabc123%24@ds219181.mlab.com:19181/appdb"
 		}
 	},
 	"public": {

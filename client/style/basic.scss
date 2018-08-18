@@ -326,4 +326,32 @@ footer{
 
   .form-horizontal .form-group .control-label {text-align:right;}
 }
+@media (min-width: 1200px) {
+  .container {
+    width: 95%; }
 
+  .panel-body.cobol{
+    width: 50%;
+  }
+
+}
+#sec-widget-1{
+  min-height: 600px !important;
+  margin: 5px;
+  width: 48% !important;
+}
+.panel-body.cobol {
+  width: 50%;
+  display: inline-block;
+  float: right;
+  max-height: 600px;
+  overflow-y: auto;
+  margin: 5px;
+}
+.cobol .panel-success {
+  border-color: #d6e9c6;
+  height: 100%;
+  min-height: 700px;
+}
+.cobol .course-content-collapsetab.collapse.in{
+}

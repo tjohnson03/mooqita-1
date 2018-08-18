@@ -12,17 +12,24 @@ Template.comp_thinking_course.onRendered(() => {
 	Meteor.call('get_comp_thinking_challenges', (err, res) => {
 		Session.set('comp_thinking_challenges', res)
 	})
-	var myjson = {};
-	myjson = JSON.parse(Assets.getText("../../../private/db/defaultcollections/modules.json"));
-	console.log(myjson)
+	$(document).ready(function(){
+		$('.module-count').on('click', function() {
+			$(this).toggleClass("mod_length");
+		 });
+	 })
 })
 
 Template.comp_thinking_course.helpers({
 	'is_module_completed': index => {
 		var comp_thinking_course_progress = Session.get('comp_thinking_course_progress')
+		//alert('comp_thinking_course_progress'+comp_thinking_course_progress)
 		var comp_thinking_modules = Session.get('comp_thinking_modules')
+		//alert('comp_thinking_modules'+comp_thinking_modules)
 		var num_comp_thinking_modules = comp_thinking_modules.length
+		//alert('num_comp_thinking_modules'+num_comp_thinking_modules)
+		console.log(numItems + 1)
 		var resume_progress = (comp_thinking_course_progress / (100 / num_comp_thinking_modules))
+		//alert('resume_progress'+resume_progress)
 		var return_val = false
 
 		if(index < resume_progress) {
@@ -141,15 +148,8 @@ Template.comp_thinking_course.events({
 	},
 
 })
-/*
 Meteor.startup(function() {
-	var xmlhttp = new XMLHttpRequest();
-	xmlhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			var myObj = JSON.parse(this.responseText);
-			document.getElementById("demo").innerHTML = myObj.name;
-		}
-	};
-	xmlhttp.open("GET", "json_demo.txt", true);
-	xmlhttp.send();
-});*/
+	$('.module-count').on('click', function() {
+			$(this).toggleClass("mod_length");
+		 });
+});

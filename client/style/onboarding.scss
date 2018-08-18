@@ -661,3 +661,37 @@ polyline{
 }
 .modal.in .modal-dialog{
 }
+.course-content-collapsetab{
+	padding: 10px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin-top: 0;
+    width: 100%;
+}
+.module-count.mod_length{
+	background-color: #A02D67;
+}
+button.list-group-item.module-count.mod_length,button.list-group-item.mod_length .list-group-item-heading{
+	color:white;
+}
+.btn:hover{
+	box-shadow:none;
+}
+a.in-pop-link:hover { text-decoration:none;
+	text-shadow: 0 0 2px #999;
+	}
+	a.in-pop-link:hover span { cursor: pointer }
+	a.in-pop-link:active { padding-top: 2px; }
+	a.in-pop-link { padding: 5px; }
+.modal.fade.in{
+	overflow-y: auto;
+}
+.in-pop-heading{
+	background: aliceblue;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.widget-50{
+	width: 50%;
+	height: 600px;
+}
