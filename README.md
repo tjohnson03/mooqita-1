@@ -6,6 +6,11 @@ Here is a side-by-side comparison of coffeescript and javascript. This will show
 
 Before you install Docker on Windows you must read this: https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install
 
+Useful materials:
+https://github.com/Mooqita/worklearn/tree/business_ui  
+Docker tutorial - https://www.youtube.com/watch?v=ymlWt1MqURY
+
+
 
 Local Installation:
 Before installing Mooqita, you must install (with admin privileges):
@@ -29,3 +34,4 @@ Mongo DB modules:
 5. Click the test button and hopefully be prompted with "Access to the database is available"
 6. Connect to the database and open the meteor drop down, right click collections, add collection named "modules"
 7. Right click the collection and insert document
+
