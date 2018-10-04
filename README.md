@@ -18,12 +18,12 @@ Before installing Mooqita, you must install (with admin privileges):
 -  Git
 -  Meteor
 Meteor also requires it's own set of updates and dependencies. I have listed the ones I installed in the order that I installed them, as follows:
-meteor npm install --save file-saver mime
-meteor npm install --save mime jszip csv-string mathjs request
-meteor npm install --save meteor-node-stubs
-meteor npm install --save babel-runtime
-meteor npm install --save  bcrypt
-meteor update --patch
+1. meteor npm install --save file-saver mime
+2. meteor npm install --save mime jszip csv-string mathjs request
+3. meteor npm install --save meteor-node-stubs
+4. meteor npm install --save babel-runtime
+5. meteor npm install --save  bcrypt
+6. meteor update --patch
 
 
 Mongo DB modules:
