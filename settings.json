@@ -22,9 +22,13 @@
 	},
 	"init_default_permissions": true,
 	"default_permissions_asset_path": "db/defaultcollections/permissions.json",
-	"init_test_data": true,
 	"admin": {
 		"email": "admin@mooqita-sfh.org",
 		"password": "password"
-	}
+	},
+    "admin": {
+		"email": "tjohnson03@unomaha.edu",
+		"password": "password"
+	},
+    "init_test_data": true,
 }
