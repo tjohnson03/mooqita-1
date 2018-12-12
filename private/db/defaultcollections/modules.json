@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Introduction",
+    "description": "A way of thinking to solve problems.",
+    "content": "<div><p> Computational thinking is a way of solving problems. Computational thinking is called that because it means thinking about how a computer could solve a problem. We use it when we write programs to control computers. We can also use computational thinking in everyday life. Computers are often used to model the real world, so many of the problems we solve with computers are like problems we solve in real life. One example is files. In real life, you might have to fill out a form at a government office. That form has information on it like your name, which in computing we would call data. It needs to be stored somewhere probably in a folder in a filing cabinet, and the people at the office might need to find it.In the computer, the form would be called a file and would be stored in a folder on the hard drive. Then if a person needs it, they can either go to the folder, just like in real life, or they can search. Computational thinking can help us think about how to store the file and also how to search for it, both in real life and in the computer. <\/p><p> Computational thinking is made up of a number of specific ideas. Important ideas include decomposition, abstraction, pattern recognition, and algorithms. You will learn about each of these in the sections below. </p><p class='in-pop-heading'> Computational Thinking</p> <iframe width='560' height='315' src='https://www.youtube.com/embed/sxUJKn6TJOI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen> </iframe><p class='in-pop-heading'><u>Quick Notes</u></p><ul class='in-pop-list'><li>Is a way of solving problems.</li><li>Helps us formulate solutions that can be easily carried out by a computer</li><li>With computational thinking we solve problems creatively. </li><li>With computational thinking we get to the root of the problem, which is a crucial step in solving it. </li></ul> </div>",
+    "module_number": 1,
+    "subject": "comp_thinking",
+    "published": true
+},
+  {
+    "title": "Decomposition",
+    "description": "Breaking a problem into smaller parts in order to solve it.",
+    "content": "<p>If a problem looks very complicated, we can break it into simpler parts and then try to solve it. For example, if we cannot lift a heavy box of items, we try to remove the items and carry them one by one. By doing so, we decompose the problem. Decomposition is breaking a problem into smaller solvable pieces.</p><p>Example: How does the human body work? We can answer this question by focusing on one system at a time. Each system can further be decomposed into small explainable parts. </p><p class='in-pop-heading'><u>Activity</u></p><a class='in-pop-link' href='https://tetris.com/play-tetris/?utm_source=top_nav_link&utm_medium=webnav&utm_campaign=playNow_btm_tst&utm_content=text_play_now'><u>Play tetris!!</u></a><p>Play this breakout game and think how you decompose the game while playing.</p><p>Now it is your turn to decompose few problems. Write your answer in the text box below.</p><ol><li>How do you jumpstart a car?</li><li>How can you get to SFH from UNMC?</li><li> How do you decompose brushing your teeth in the morning?</li> </ol> <p>You can watch this video to recall the concepts you learned about decomposition:</p><iframe width='560' height='315' src='https://www.youtube.com/embed/yQVTijX437c' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+    "module_number": 2,
+    "subject": "comp_thinking",
+    "published": true
+  },
+  {
+    "title": "Pattern Recognition",
+    "description": "Finding similarities in parts of an activity or a problem",
+    "content": "<p>Pattern recognition is when we find similarities among different parts of the problem. We leverage this approach in our daily life experiences time to time. For instance, repeating same activities while accomplishing a task.</p><p>Let\u2019s imagine we need to draw five bikes and color them differently. We know that all bikes have tires, seats, and other common parts. These similar parts in computational thinking are known as patterns. We can easily draw the bikes by following similar steps and then color differently.</p><p>This video explains pattern recognition in more detail:</p><iframe width='560' height='315' src='https://www.youtube.com/embed/SixLnIDV1yY' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe><iframe width='560' height='315' src='https://www.youtube.com/embed/cbZUnuyxcVs' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe><iframe width='560' height='315' src='https://www.youtube.com/embed/ixgGGzZXQ7E' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe><p class='in-pop-heading'><u>Activity:</u></p><p>Now have to find some common patterns in the following examples:</p><ol><li>What is the similarity between a car, truck, and a bike?</li><li>Thinking back about the human body example earlier, what is similarity between human body and a machine?</li> </ol>",
+    "module_number": 3,
+    "subject": "comp_thinking",
+    "published": true
+  },
+  {
+    "title": "Abstraction",
+    "description": "Focusing on details that matter",
+    "content": "<p>Abstraction means focusing on details that matter and ignoring the unnecessary details while solving a problem. It can also be put as identifying what is important in the problem we are solving. A good example for abstraction is using a pen. We write the pen, which is its main functionality. We do not know how the ink reaches the nib and write on the paper. So the important part is writing, and the detailed parts are how the pen works. </p> <p>Let's consider a daily planner. By using a daily planner we organize our time so we have a glance of our week, day, and hours and see what is important in our schedule.</p> <p>This video explains Abstraction in more detail:</p> <iframe width='560' height='315' src='https://www.youtube.com/embed/jV-7Hy-PF2Q' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe> <p class='in-pop-heading'><u>Activity:</u></p> <p>Write the abstract and detailed explanation of the following:</p> <ol><li>1.Think of cooking your favorite recipe. List all the parts and then categorize the abstract and detailed steps. How does the abstraction of your favorite recipe look? </li> </ol> <p>Abstraction in Action:</p><iframe width='560' height='315' src='https://www.youtube.com/embed/9ePRa5nahYI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>",
+    "module_number": 4,
+    "subject": "comp_thinking",
+    "published": true
+  },
+  {
+    "title": "Algorithm",
+    "description": "Following a standard set of steps for completing a task or solving a problem.",
+    "content": "<p>An algorithm is a set of rules or steps we follow to solve a problem or complete a task. For example, brushing teeth is an algorithm. It is a step by step procedure that everyone follows when they brush their teeth. The steps are: <\/p> <ol><li>Holding the brush under running water.<\/li><li>Putting toothpaste on the toothbrush<\/li><li>Brush their teeth<\/li><li>Rinsing the brush<\/li><li>Rinsing their mouth<\/li><\/ol> <p>The above list of action can be knowns as tooth brushing algorithm.<\/p><p> Let\u2019s look at the a different example. Recall the bed assignment example we discussed earlier. Assigning beds at the shelter is also an algorithm because the employees follow the same steps each time they assign a bed to an individual. Whenever a new guest registers themselves in the shelter the employee follows the following steps: <\/p><ol><li>Checking for a vacant bed<\/li><li>Assigning the vacant bed to the guest<\/li><li>Registering the bed number and the guest name in the system<\/li><\/ol> <p>Search algorithms - linear is fine with small data (classroom attendance) but harder the bigger the data gets. IRS example - if you have to check off as you receive each tax form,  you need to quickly find the number in the list. <\/p><p>Resource allocation - S-F can allocated beds in order - come in, take the next open bed, then the next then the next. A restaurant doesn\u2019t want to do that because the first four tables will be assigned to one server while the others stand around, and the one server will be trying to do many things simultaneously. Instead the hostess will seat tables so one goes to the first server, one to the next server, etc. and then come back around (A picture would help explain this.) Multiple CPUs work the same way - the (?? OS??) will allocate tasks across CPUs. <\/p><ol><li>Cooking your favorite recipe.<\/li><li>Putting gas in a car.<\/li><\/ol> <p>What is an Algorithm? (TED-Ed)<\/p><iframe width='560' height='315' src='https://www.youtube.com/embed/6hfOvs8pY1k' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen><\/iframe><iframe width='560' height='315' src='https://www.youtube.com/embed/ROUV90QmqUA' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen><\/iframe><p>Algorithms in Action<\/p><iframe width='560' height='315' src='https://www.youtube.com/embed/o1mNf6_YqZM' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen><\/iframe>",
+    "module_number": 5,
+    "subject": "comp_thinking",
+    "published": true
+  },
+  {
+    "title": "Course Recap",
+    "description": "A recap of the Course",
+    "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/mUXo-S7gzds' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen><\/iframe><p>Things computers are good at vs. things computers are bad at.<\/p><p>One element of computational thinking is knowing what kinds of problems can be solved well by a computer and what problems are better if a person does them. Going back to the IRS example, a computer is really good at searching and recording data. So computers are a great tool for the IRS to use to keep track of who has turned in their tax forms each year - the computer can keep the list and quickly search for the social security numbers where no tax form has been received so those people can be notified. On the other hand, computers are not good at many creative tasks. For example, a computer is not good at deciding if a picture is pretty or if a person is kind. As programmers get smarter and as computers get more powerful, computers are starting to be able to do more and more complex tasks, but people are still required! <\/p><p>Additional Resources:<\/p><ol><li><a href='http://games.thinkingmyself.com/'>Computational Thinking Games<\/a><\/li><\/ol>",
+    "module_number": 6,
+    "subject": "comp_thinking",
+    "published": true
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title": "Program Structure",
+    "description": "This section of the COBOL course will teach you about how to structure of a COBOL program would be setup and how it will run.",
+    "content": "<h1>Program Structure</h1><p><strong>A COBOL program structure is built up of seven separate parts that consist of; Program -> Divisions -> Sections -> Paragraphs -> Sentences -> Statements -> Characters.</strong><p><p><strong>Sections: These are the logical subdivision of program logic. A section is essentially a collection of different paragraphs which are stringed together.</strong><p><p><strong>Paragraphs: These are a subdivision of the section, or the division. It has tobe either a user-defined, or a predefined name followed by a period. It must consist of zero, or more sentences, or entries.</strong><p><p><strong>Sentences: These are a combination of one, or more statements. Sentences only appear in the Procedure division. All sentences in COBOL must end with a period.</strong><p><p><strong>Statements: These are meaningful COBOL statements that are used to perform some processing.</strong><p><p><strong>Characters: These are the lowest in the COBOLhierarchy. They are not visible.</strong>",
+    "module_number": 1,
+    "subject": "COBOL",
+    "published": true
+  },
+  {
+    "title": "Introduction to Conditional Statements",
+    "description": "This lesson will contain a basic overview and introduction to conditional statements used in Python",
+    "content": "<p>&lt;p&gt;A large component of programming is logic. Among other things, logical statements are crucial to the functionality of a good program. In the computational thinking module, you should have learned some basic examples and characteristics of conditional statements. This module will explore some conditional statements in Python, and show some examples of each. &lt;/p&gt;</p><p>&lt;p&gt;The notorious &amp;ldquo;If&amp;rdquo; statement!: An &amp;ldquo;If&amp;rdquo;statement is a basic conditional that is widely used in computer programming. It is also simple to understand. An &amp;ldquo;If&amp;rdquo; statement contains code that a program should execute - if a certain criteria is met. &lt;/p&gt;</p><p>&lt;p&gt;For example; If today is your birthday - execute the following action - &amp;ldquo;sing happy birthday!&amp;rdquo;. An &amp;ldquo;If&amp;rdquo; statement can be executed in Python by using the following syntax:&lt;/p&gt;</p><p>&lt;p&gt;If (expression or criteria) : execute statement&lt;/p&gt;</p><p>&lt;p&gt;For example, &lt;/p&gt;</p><p>&lt;p&gt;If x=3: print(&amp;ldquo;X equals 3!&amp;rdquo;)&lt;/p&gt;</p><p>&lt;p&gt;If (birthday = true) : print(&amp;ldquo;Happy Birthday&amp;rdquo;)&lt;/p&gt;</p><p>&lt;p&gt; The &amp;ldquo;if-else&amp;rdquo; statement: This is a classical logic statement that is an extension of the &amp;ldquo;if&amp;rdquo; conditional. The &amp;ldquo;if&amp;rdquo; conditional on its own checks for a certain criteria, and if true, executes an action. If the criteria is not met - then the program moves on and no action is taken. The &amp;ldquo;if-else&amp;rdquo; statement allows programmers to ensure than an action is taken. For example, if it is your birthday - the program should print - Happy Birthday. But what if it is not your birthday? Then some programmers might want the program to execute a simple action - like saying &amp;ldquo;Have a great day&amp;rdquo;. The &amp;ldquo;if-else&amp;rdquo; statement can be executed with the following syntax. &lt;/p&gt;</p><p>&lt;p&gt;If (expression or criteria) : execute statement Else: execute this statement&lt;/p&gt;</p><p>&lt;p&gt;For example,&lt;/p&gt;</p><p>&lt;p&gt;If x=3: print(&amp;ldquo;X equals 3!&amp;rdquo;) Else: print (&amp;ldquo;X does not equal 3&amp;rdquo;)&lt;/p&gt;</p><p>&lt;p&gt;If (birthday = true) : print(&amp;ldquo;Happy Birthday&amp;rdquo;) Else: print(&amp;ldquo;It is not your birthday, but have a great day!&amp;rdquo;) &lt;/p&gt;</p>",
+    "module_number": 1,
+    "subject": "python",
+    "published": true
+  }
+]
